@@ -1,0 +1,12 @@
+[project]
+name = "tinysynth"
+version = "0.1.0"
+description = "Tiny numpy-only chiptune synth: music bed, sound effects and voice ducking for explainer videos"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
